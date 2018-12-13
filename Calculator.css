@@ -1,0 +1,56 @@
+.CalculatorContainer{
+    width:300px;
+   display: flex;
+    
+}
+.screen{
+    width:300px;
+    background-color: #607d8be0;
+    height:80px;
+    color:yellow;
+    font-size: 40px;    
+}
+.btn{
+  width:25%;
+  border: 2px solid #0c0c0c4d;
+  font-size: 25px;
+  height:70px;
+  background-color: black;
+  color:white;
+}
+table,tr,td,th{
+    border:1px solid black;
+    border-collapse: collapse;
+    width: 650px;
+    text-align: center;
+} 
+table{
+    margin-left: 50%;
+    
+    overflow: auto;
+}
+
+tr,td{
+    height: 30px;
+}
+th{
+    height:40px;
+}
+.btn1{
+    color:white;
+    font-size: 14px;
+    height: 22px;
+    background-color: blueviolet;
+    border: none;
+    cursor: pointer;
+}
+.btn2{
+    color:white;
+    font-size: 14px;
+    height: 22px;
+    margin-left: 10px;
+    background-color: blue;
+    border: none;
+    cursor: pointer;
+}
+
